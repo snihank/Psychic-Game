@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en-us">
+    <head>
+            <meta charset="UTF-8">
+            
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Psychic-Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
+    </head>
+    <body id="bd">
+
+            
+
+        <div class="container-fluid">
+
+        <div id ="header" 
+        class="jumbotron">
+        <h1>Psychic-Game</h1>
+        <h4>Guess any Alphabet from a to z</h4>
+    </div>
+
+
+    <div class="container">    
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+    <button id = "button" class="btn btn-primary" type="submit">Start</button>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+                <form>
+                        <div id="player" class="form-group">
+                          <label  for="player-input">Player</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter alphabet">
+                          
+                        </div>
+                        <div id="computer" class="form-group">
+                          <label for="exampleInputPassword1">Computer</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Alphabet from Computer">
+                        </div>
+                       
+                       
+                      </form>
+        </div>
+    </div>
+
+    <div class="container">
+
+    <div id = "row" class="row justify-content-md-center">
+        <div class="col-xs-12 text-center">
+            
+        <p id="player-guess">Player Guess: </p>
+        </div>
+    </div>
+
+    <div id = "row" class="row justify-content-md-center">
+        <div class="col-xs-12 justify-content-center">
+        <p id="wins">WINS: </p>
+        </div>
+    </div>
+
+    <div id="row" class="row justify-content-md-center">
+        <div class="col-xs-12 justify-content-center">
+        <p id="losses">LOSSES: </p>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>
+

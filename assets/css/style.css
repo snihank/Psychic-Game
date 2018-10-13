@@ -1,0 +1,36 @@
+
+#bd {
+
+    /* How to insert background image */
+    /* background-image: url("/assets/images/image1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: lightgrey;
+
+}
+
+#row{
+    background: white;
+    margin-bottom: 2%;
+    align-content: center;
+    height: 60px;
+    
+}
+
+#button {
+    margin-bottom: 5%;
+    width: 100px;
+    height: 50px;
+    margin-left: 40%;
+    color: yellow;
+}
+
+#header{
+    color: lightgoldenrodyellow;
+    text-align: center;
+    background: royalblue;
+    font-size: xx-large;
+    font-style: italic;
+}
